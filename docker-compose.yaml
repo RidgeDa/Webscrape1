@@ -1,0 +1,9 @@
+version: "3.4"
+services: 
+  python:
+    build: 
+      context: .
+    container_name: python
+    image: rnd95/python-imdb
+    ports: 
+    - 5000:5000
